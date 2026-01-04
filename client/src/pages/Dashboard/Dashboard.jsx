@@ -86,7 +86,7 @@ const Dashboard = () => {
             method: "POST",
             headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${token}`,
+            "Authorization": `Bearer ${token}`,
             },
             body: JSON.stringify({
             amount: formData.amount,
@@ -130,7 +130,7 @@ const Dashboard = () => {
         credentials: "include", // send cookie if you're using cookie auth
             headers: {
                 "Content-Type": "application/json",
-                Authorization: `Bearer ${token}`,
+                "Authorization": `Bearer ${token}`,
             },
         });
 
