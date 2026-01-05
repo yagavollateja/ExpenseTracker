@@ -16,7 +16,7 @@ mongoose.connect(process.env.mongo_connection,{})
 });
 app.use(express.json());
 app.use(cors({
-    origin: "http://localhost:5173", // your React (Vite) frontend
+    origin: ["http://localhost:5173","https://expense-tracker-nine-omega-25.vercel.app"], // your React (Vite) frontend
     credentials: true, // if using cookies/JWT
 }));
 //models initializations 
