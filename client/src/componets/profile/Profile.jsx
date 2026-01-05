@@ -13,7 +13,7 @@ const Profile = ({ handleToggle, user }) => {
             return;
         }
 
-        const response = await fetch("http://localhost:8000/api/users/logout", {
+        const response = await fetch("https://expensetracker-o1xo.onrender.com/api/users/logout", {
             method: "POST",
             headers: {
             "Content-Type": "application/json",

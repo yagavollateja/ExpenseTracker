@@ -7,12 +7,12 @@ export const fetchUserAndTransactions = async () => {
   if (!token) throw new Error("⚠️ No token found. Please login again.");
 
   const [userRes, transactionsRes] = await Promise.all([
-    fetch("http://localhost:8000/api/users/me", {
+    fetch("https://expensetracker-o1xo.onrender.com/api/users/me", {
       headers: {
         "Authorization": `Bearer ${token}`,
       },
     }),
-    fetch("http://localhost:8000/api/transactions", {
+    fetch("https://expensetracker-o1xo.onrender.com/api/transactions", {
       headers: {
         "Authorization": `Bearer ${token}`,
       },

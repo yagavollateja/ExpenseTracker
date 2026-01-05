@@ -20,7 +20,7 @@ const Dashboard = () => {
     useEffect(() => {
         const fetchDashboard = async () => {
         try {
-            const response = await fetch("http://localhost:8000/api/users/dashboard",
+            const response = await fetch("https://expensetracker-o1xo.onrender.com/api/users/dashboard",
             {
                 method: "GET",
                 credentials: "include",
@@ -79,8 +79,8 @@ const Dashboard = () => {
         try {
         const endpoint =
             formData.type === "income"
-            ? "http://localhost:8000/api/transactions/addIncome"
-            : "http://localhost:8000/api/transactions/addExpense";
+            ? "https://expensetracker-o1xo.onrender.com/api/transactions/addIncome"
+            : "https://expensetracker-o1xo.onrender.com/api/transactions/addExpense";
 
         const response = await fetch(endpoint, {
             method: "POST",
@@ -125,7 +125,7 @@ const Dashboard = () => {
     if (!confirmDelete) return;
 
     try {
-        const res = await fetch(`http://localhost:8000/api/transactions/${txnId}`, {
+        const res = await fetch(`https://expensetracker-o1xo.onrender.com/api/transactions/${txnId}`, {
         method: "DELETE",
         credentials: "include", // send cookie if you're using cookie auth
             headers: {

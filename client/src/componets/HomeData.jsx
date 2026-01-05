@@ -7,7 +7,7 @@ const HomeData = ({setIslogin}) => {
 
     useEffect(() => {
     // Fetch data from backend using GET
-fetch("http://localhost:8000/home")
+fetch("https://expensetracker-o1xo.onrender.com/home")
     .then(response => {
     if (!response.ok) {
         throw new Error("Failed to fetch data");
