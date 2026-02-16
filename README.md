@@ -38,6 +38,7 @@ Users can:
 ## 📂 Project Structure
 
 ExpenseTracker/
+
 │
 ├── client/ # Frontend UI
 │
