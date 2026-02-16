@@ -65,7 +65,7 @@ const Register = () => {
                 required
             />
             <input
-                type="password"
+                type="text"
                 name="password"
                 placeholder="Create Password"
                 value={formData.password}
@@ -73,7 +73,7 @@ const Register = () => {
                 required
             />
             <input
-                type="password"
+                type="text"
                 name="confirm_password"
                 placeholder="Confirm Password"
                 value={formData.confirm_password}
