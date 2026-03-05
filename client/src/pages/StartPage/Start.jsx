@@ -54,7 +54,7 @@ function Start() {
                 </div>
                 <div className="hero-img">
                     <img
-                        src="./../../../public/media/illustrateExpense.png"
+                        src="https://github.com/yagavollateja/ExpenseTracker/blob/main/client/public/media/illustrateExpense.png"
                         alt="Expense Illustration"
                     />
                 </div>
