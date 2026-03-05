@@ -18,7 +18,7 @@ const MoreInfo = () => {
             </div>
             <div className="moreinfo-img">
             <img
-                src="https://res.cloudinary.com/dmn4kh4js/image/upload/v1772693006/myPhoto_qhuo6n.jpg"
+                src="https://res.cloudinary.com/dmn4kh4js/image/upload/v1772693542/illustrateExpense_ezp7xd.png"
                 alt="About illustration"
             />
             </div>
@@ -71,7 +71,7 @@ const MoreInfo = () => {
             <h2>Meet the Developer 👨‍💻</h2>
             <div className="dev-card">
             <img
-                src="./../../../public/media/profile.jpg"
+                src="https://res.cloudinary.com/dmn4kh4js/image/upload/v1772693006/myPhoto_qhuo6n.jpg"
                 alt="Developer avatar"
             />
             <div>
