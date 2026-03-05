@@ -18,7 +18,7 @@ const MoreInfo = () => {
             </div>
             <div className="moreinfo-img">
             <img
-                src="https://github.com/yagavollateja/ExpenseTracker/blob/main/client/public/media/profile.jpg"
+                src="https://res.cloudinary.com/dmn4kh4js/image/upload/v1772693006/myPhoto_qhuo6n.jpg"
                 alt="About illustration"
             />
             </div>
